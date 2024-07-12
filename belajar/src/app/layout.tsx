@@ -12,10 +12,12 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header>
-          <div className="bg-blue-300">Header</div>
+          <div className="bg-blue-300 m-5 h-12 rounded-xl p-2">Header</div>
         </header>
         {children}
-        <footer className="bg-black text-white m-5">footer</footer>
+        <footer className="bg-black text-white m-5 h-12 rounded-xl p-2">
+          footer
+        </footer>
       </body>
     </html>
   );
